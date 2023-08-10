@@ -1,6 +1,82 @@
-.body{
-    background-color:#e61010;
+/* Estilos para o corpo da página */
+body {
+    background-color: #5c31bf;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-#informações{
-    font-size:large ;    
+
+/* Estilos para o header */
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+}
+
+/* Estilos para a div 'informações' */
+#informações {
+    font-size: larger;
+    font-family: 'Quicksand', sans-serif;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.726); /* Adicionei um fundo semi-transparente */
+    text-align: center;
+}
+
+/* Estilos para a div 'image-container' */
+.image-container {
+    position: absolute;
+    top: 110px; /* Posição acima da div informações */
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    width: 200px; /* Defina o tamanho desejado para a imagem */
+    height: 200px;
+    box-shadow: 0px 20px 8px rgba(0, 0, 0, 0.2); /* Adicione a sombra aqui */
+    border: 5px solid #000000; /* Adicione a borda aqui */
+}
+
+/* Estilos para a imagem dentro da 'image-container' */
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para a classe red-text */
+.red-text {
+    color: red;
+}
+
+/* Estilos para a classe green-text */
+.green-text {
+    color: green;
+}
+
+/* Estilos para a classe .bottom-right-image */
+.bottom-right-image {
+    position: fixed;
+    bottom: 20px; /* Ajuste conforme necessário */
+    right: 20px; /* Ajuste conforme necessário */
+    width: 50px; /* Largura da imagem */
+    height: auto; /* Altura ajustada automaticamente */
+    opacity: 0.5; /* Define a opacidade da imagem */
+}
+
+/* Estilos para a classe .page-header */
+.page-header {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 15%;
+    padding: 20px;
+    font-family: 'Quicksand', sans-serif;
+    border-bottom: 1px solid #eee; /* Adicione uma linha abaixo do header */
 }
