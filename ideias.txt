@@ -1,0 +1,1 @@
+Compressão de imagens, para fazer elas requisitarem menos da internet do usuário. 
